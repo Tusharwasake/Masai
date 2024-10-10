@@ -1,0 +1,24 @@
+div{
+    align-items: center;  
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+.Circle{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    
+}
+
+.Square{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}

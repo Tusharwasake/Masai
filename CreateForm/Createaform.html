@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Create Form</title>
+    </title>
+    <body>
+
+        <!-- feeback drop -->
+
+        <form>
+            <label for="feed">Feedback</label>
+            <select name="feedback" id="feed">
+                <option value="Excellent">Excellent</option>
+                <option value="Good">Good</option>
+                <option value="Average">Average</option>
+                <option value="poor">Poor</option>
+                <option value="Bad">Bad</option>
+            </select>
+
+
+
+            <br>
+            <label for="message">Your Message:</label><br>
+            <textarea name="message" id="message" rows="4" cols="50" placeholder="Enter your message Here"></textarea>
+
+            <br>
+            <p>Website Rating:</p>
+            <label for="rating">1</label>
+            <input type="radio" name="website-rating" id="rating" value="1">
+
+            <label for="rating-2">2</label>
+            <input type="radio" name="website-rating" id="rating-2" value="2">
+
+            <label for="rating-3">3</label>
+            <input type="radio" name="website-rating" id="rating-3" value="3">
+            
+            <label for="rating-2">4</label>
+            <input type="radio" name="website-rating" id="rating-2" value="4">
+
+            <label for="rating-1">5</label>
+            <input type="radio" name="website-rating" id="rating-1" value="5"><br><br>
+
+
+            <!-- AGE input  -->
+            <label for="age">Age(10-100):</label>
+            <input type="number" name="age" id="age" min="10" max="100"><br><br>
+
+            <!-- email  -->
+
+            <label for="email">email</label>
+            <input type="email" id="email" required><br><br>
+
+            <!-- password -->
+
+            <label for="password">password (min 8 characters):</label>
+            <input type="password" id="password" name="password" minlength="8" required>
+
+            <!-- website url -->
+            
+            <label for="website">website url:</label>
+            <input type="url" id="website" name="website"><br><br>
+
+            <label for="checkbox">I agree teams and condition
+                <input type="checkbox" name="tc" id="checkbox" required>
+            </label> <br><br>
+            
+            <!-- submit -->
+
+            <button type="submit">submit</button>
+
+
+        
+        </form>
+
+        
+
+    </body>
+</html>
+
+

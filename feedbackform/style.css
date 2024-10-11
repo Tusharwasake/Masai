@@ -1,0 +1,68 @@
+body{
+    background-image:-webkit-radial-gradient(rgb(167, 167, 212),red);
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+h1{
+    text-align: center;
+
+    
+}
+div{
+    background-color: rgb(239, 239, 239);
+    width: 25%;
+    height: 70%;
+    text-align: left;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+form{
+
+    padding: 5% 5%
+  
+}
+
+#feedback{
+    width: 95%;
+    padding: 5px;
+    align-content: center;
+    border-radius: 3px;
+    margin-bottom: 5%;
+}
+
+#message{
+    width: 94%;
+    border-radius: 3px;
+    margin-bottom: 5%;
+}
+
+#Excellent{
+    margin-bottom: 5%;
+}
+#star{
+    color: red;
+}
+
+#age, #password, #email, #url{
+    width: 95%;
+    padding: 5px;
+    align-content: center;
+    border-radius: 3px;
+    margin-bottom: 5%;  
+    border: 1px solid gray;
+}
+
+button{
+    color: white;
+    background-color: rgb(50, 163, 50);
+    border: none;
+    border-radius: 4px;
+    padding: 1.5%;
+    margin-left: 35%;
+    font-size: 20px;
+}
+

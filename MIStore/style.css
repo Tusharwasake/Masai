@@ -1,0 +1,177 @@
+*{
+    margin: auto 0;
+}
+
+
+body{
+    background-color: #dfdfdf;
+}
+
+.navbar{
+    display: flex;
+    background-color: white;
+    height: 60px;
+    
+}
+.earphone {
+    width: 35px;
+    margin: 5px 28px;
+   
+}
+
+.cardTitle{
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+.section{
+    font-family: sans-serif;
+    margin-top: 10px;
+    width: 100%;
+
+    
+}
+
+
+
+.nav1{
+    display: flex;
+    list-style: none;
+    margin-right: 220px;
+   
+
+}
+
+.propli{
+    margin-right: 48px;
+    width: max-content;
+    font-size: 18px;
+}
+
+.nav2{
+    display: flex;
+    list-style: none;
+}
+
+
+.iconli{
+    width: 30px;
+    margin-right: 50px;
+
+}
+
+.card{
+    display: flex;
+    margin: auto 8%;
+    
+    
+}
+
+.pad{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 240px;
+    margin-right: 1.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);     
+    padding-top: 20px;
+}
+
+.priceimg div{
+    background-color: rgb(255, 255, 255);
+}
+
+.priceimg{
+    display: flex;
+}
+
+.prices{
+    font-size: 20px;
+    position: relative;
+    padding-top: 80px;
+    padding-left: 10px;
+} 
+.cardimage1{
+    width: 80%;
+    position: relative;
+    left: 80px;
+    top: 6px;
+}
+
+.cardimage2{
+    width: 60%;
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
+
+.cardimage3{
+    width: 60%;
+    position: relative;
+    left: 110px;
+    top: 10px;
+}
+
+.cardimage4{
+    width: 60%;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+
+span{
+    /* padding-top: 40px; */
+    font-weight: bold;
+    
+}
+
+strike{
+    color: rgb(147, 147, 147);
+    font-weight: lighter;
+    font-size: 18px;
+    
+}
+
+.pad3{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 260px;
+    margin-right: 1.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);     
+    padding-top: 20px;
+}
+
+.fitimage{
+    width: 83%;
+    margin: auto 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card2{
+    display:flex;
+    margin: auto 110px;
+}
+
+
+.prices2{
+    font-size: 20px;
+    position: relative;
+    padding-top: 60px;
+    padding-left: 20px;
+} 
+
+
+.cardimagez{
+    width: 80%;
+    position: relative;
+    left: 28%;
+    top: 4px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+
+#nav{
+    margin: 20px auto;
+    height: 60px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto 20px;
+    font-weight: bold;
+    
+}
+
+.left{
+    display:flex;
+}
+
+.left img{
+    width: 114px;
+}
+
+
+
+.middle ul{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.middle ul li:nth-child(5){
+    color: #ED0331;
+}
+
+
+.middle ul > li{
+    display: flex;
+    font-style: none;
+    margin: 15px;
+
+}
+
+
+
+.right button:nth-child(1){
+    padding: 10PX;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(227, 255, 255);
+    color: rgb(78, 78, 255);
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+.right button:nth-child(2){
+    padding: 10PX;
+    border: 1px solid #ED0331;
+    border-radius: 5px ;
+    background-color: rgb(255, 255, 255);
+    color: #ED0331;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+}
+
+.sectiondiv{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+section{
+    margin: 50px 14px auto 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sectiondiv div:nth-child(1){
+    margin-right:10px;
+}
+.sectiondiv div h1{
+    color: #6E71CC;
+    font-size: 50px;
+
+}
+
+.sectiondiv div h3{
+    color: #000000;
+    font-size: 25px;
+
+}
+
+.sectiondiv div button{
+    padding: 10PX;
+    border: 1px solid #ED0331;
+    border-radius: 5px ;
+    background-color: rgb(255, 255, 255);
+    background-color: #ED0331;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+body > video{
+    margin:auto 0px;
+    background-color: white;
+}
+
+.responsive-iframe{
+    height: 329px;
+    width: 593px;
+    box-shadow: rgba(248, 248, 248, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+section + section{
+    background-color: #3470E4;
+    height: 300px;
+    border: 10px;
+    margin: 20px 0px;
+ 
+
+    
+}
+
+.impact{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+.impact h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.disc{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.disc h1{
+    font-size: 40px;
+}
+.disc p{
+    font-size: 15px;
+}

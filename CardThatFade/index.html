@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Card That Fade</title>
+    <style>
+        
+        body{
+            text-align: center;
+            background-color: black;
+        }
+        h1{
+            color: white;
+        }
+        .cointainer{
+            display: flex;
+            justify-content: center;
+        
+        }
+
+        .card{
+            width: 200px;
+            height: 200px;
+            margin: 10px;   
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+
+        .yellow{
+            background-color: rgb(225, 255, 0);
+        }
+
+        .pink{
+            background-color: pink;
+        }
+        .red{
+            background-color: red;
+        }
+
+        .green{
+            background-color: green;
+        }
+        .card:hover {
+            opacity: 1;
+        }
+
+        .card:not(:hover){
+            opacity: 0.4;
+
+        } 
+ 
+    </style>
+</head>
+<body>
+    <h1>Card</h1>
+    <div class="cointainer">
+        <div class="card yellow"></div>
+        <div class="card pink"></div>
+        <div class="card red"></div>
+        <div class="card green"></div>
+    </div>
+</body>
+</html>

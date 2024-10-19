@@ -1,0 +1,50 @@
+/* .container{
+    background-color: black;
+} */
+.cal{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 5px;
+
+}
+
+
+.container{
+    width: 500px;
+    height: 550px;
+    padding: 50px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.cal div{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorclass{
+    background-color:rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    height: 100px;
+    /* width: 100px; */
+}
+
+.cal div:nth-child(1){
+    grid-column:span 4;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}

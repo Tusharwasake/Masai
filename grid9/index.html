@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,1fr);
+            gap: 10px;
+            width: 480px;
+
+        }
+        .sub{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        .red{
+            background-color: red;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+            background-color: green;
+        }        
+        .orange{
+            background-color: orange;
+        }
+
+        .black{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub red"></div>
+        <div class="sub blue"></div>
+        <div class="sub yellow"></div>
+        <div class="sub green"></div>
+        <div class="sub black"></div>
+        <div class="sub orange"></div>
+        <div class="sub blue"></div>
+        <div class="sub yellow"></div>
+    </div>
+</body>
+</html>

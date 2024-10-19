@@ -1,0 +1,46 @@
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.paraflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paraflex svg{
+ border-radius: 50%;
+ border: 1px solid rgb(201, 201, 201);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+
+.cards div{
+    width: 400px;
+
+}
+
+.cards div p{
+    margin-right: 50px;
+}
+
+.cards img{
+    width: 400px;
+    border-radius: 20px;
+}

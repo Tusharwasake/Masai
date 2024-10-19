@@ -1,0 +1,52 @@
+
+body{
+    background-color: black;
+}
+.container{
+    background-color: rgb(54, 54, 54);
+    height: 300px;
+    width: 95%;
+    border-radius: 20px;
+}
+.Keyboard{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows:repeat(5,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.Keyboard > div{
+    height: 48px;
+
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4BB1D3;
+    text-transform: uppercase;
+    font-family:sans-serif;
+    font-weight: bold;
+
+}
+
+.Keyboard div:nth-child(35){
+  
+    grid-column: span 2;
+
+}
+
+
+.Keyboard div:nth-child(46){
+  
+    grid-column: span 2;
+
+}
+
+.Keyboard div:nth-child(51){
+  
+    grid-column: span 4;
+
+}
+

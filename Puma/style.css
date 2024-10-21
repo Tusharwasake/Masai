@@ -269,7 +269,9 @@ nav{
     
 }
 
-
+.section7,.section8{
+    height: 600px;
+}
 
 .section7 img{
     height: 550px;
@@ -287,5 +289,140 @@ nav{
     height: 550px;
     object-fit: cover;
 }
+
+
+.section9{
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+
+}
+
+.section9 .shoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.footer{
+
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.foot{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    
+    
+}
+
+.foot div:nth-child(2) ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+ul li{
+    /* display: grid; */
+    list-style: none;
+    margin: 5px 0px;
+
+
+}
+
+.tags{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foot div:nth-child(1) div:nth-child(2) ul{
+    flex: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+
+
+.foot div:nth-child(3) ul {
+    display: flex;
+    
+}
+
+
+.foot div:nth-child(3) div:nth-child(1) div:nth-child(2) ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+   
+}
+
+
+.foot div:nth-child(3) div:nth-child(1) div:nth-child(2) img{
+    width: 25px;
+    filter: invert(1)
+   
+}
+
+
+
+
+.payments{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payments  div ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.payments  div ul li{
+    margin: auto 10px;
+    
+}
+
+
+.payments div{
+    justify-content: space-between;
+    
+
+}
+
+.payments li img{
+    width: 25px;
+    background-color: white;
+    padding: 2px 10px;
+    
+     
+}
+
+.payments div:nth-child(2){
+    width: 25px;
+    
+}
+
+.payments div:nth-child(2) img{
+    width: 25px;
+
+}
+
+.payments div:nth-child(3){
+   margin: auto 30px;
+    
+}
+
 
 

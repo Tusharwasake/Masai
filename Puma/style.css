@@ -1,0 +1,275 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.left{
+    display: flex;
+    
+}
+
+.left ul{
+    display: flex;
+    align-items: center;
+}
+
+.left ul li{
+    list-style: none;
+    margin: auto 10px;
+
+}
+
+.left > img{
+    width: 30px;
+    filter: invert(1);
+    margin-right: 10px;
+    
+}
+
+.specialbutton{
+    margin: auto 30px auto 0;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 6px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.right button{
+    margin: auto 30px auto 0;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 6px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+.right button div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+
+.right svg{
+    margin: auto 10px;
+}
+
+.section{
+    background-color: #DAD2CC;
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+    padding: 40px 0px 0px 40px;
+}
+
+.section .videocont{
+    padding: auto 200px;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    /* left: 100px; */
+}
+.section .content h4{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}   
+
+.section video{
+
+    height:450px;
+    width: fit-content;
+    object-position: center;
+    
+    
+
+    
+}
+
+.content p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.content button{
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+
+.section .rightimg{
+    position: relative;
+    width: 700px;
+    top: -600px;
+    left: 750px;
+    
+}
+
+.section2{
+    margin-top: 20em;
+    /* background-color: grey; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+
+}
+
+.section2 .shoes{
+    display: flex;
+    justify-content: space-around;
+}
+.cards img{
+    width: 300px;
+}
+
+.cards div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.section3{
+    margin-top: 60px;
+}
+
+#content3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#content3 h2{
+    font-size: 40px;
+       
+}
+
+#content3 p{
+    font-size: 30px;
+    margin: 20px;
+       
+}
+
+.playbook{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1px;
+    text-align: center;
+}
+
+.playcards h5{
+    margin-top: 10px;
+    font-size: 20px;
+ }
+
+.playcards .specialbutton{
+   margin-top: 10px;
+}
+
+.playcards img{
+    width:300px;
+}
+
+.section4{
+    margin-top: 100px;
+}
+
+.stylecard img{
+    width:750px;
+}
+
+.stylecard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.section5{
+    margin-top: 100px ;
+}
+
+.section5 img{
+    width: 100%;
+    height: 400px;
+}
+
+.section6{
+    text-align: center;
+    margin: 100px auto;
+}
+
+.section6 button{
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+.section7{
+  padding: auto 200px;
+}
+
+.classic{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.classic img{
+    width:450px;
+}
+
+.betweenclass{
+    position: relative;
+    top: -380px;
+}
+
+.betweenclass2{
+    position: relative;
+    top: -380px;
+    left: -500PX;
+    
+}
+
+#newsec{
+    margin-bottom: 0px;
+    padding: 0%;
+}

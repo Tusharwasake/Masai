@@ -269,7 +269,23 @@ nav{
     
 }
 
-#newsec{
-    margin-bottom: 0px;
-    padding: 0%;
+
+
+.section7 img{
+    height: 550px;
+    object-fit: cover;
 }
+
+.betweenclass4{
+    position: relative;
+    top:-350px;
+    left: 630px;
+    
+}
+
+.section8 img{
+    height: 550px;
+    object-fit: cover;
+}
+
+

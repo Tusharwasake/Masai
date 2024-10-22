@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+    margin: 0%;
+    
+    
+}
+
+.navbar{
+    background-color: rgb(253, 253, 253);
+    margin:  20px auto;
+    position: sticky;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: rgb(0, 0, 0);
+    /* font-weight: bold; */
+    font-size: 18px;
+    margin: 25px;
+}
+
+button{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+ 
+    
+}
+#dropdown ul li{
+    display: block;
+}
+
+#dropdown{
+        display: none;
+        
+
+}
+
+#company:hover #dropdown{
+    display: block;
+}
+
+button a{
+    color: black;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+
+.content{
+
+    margin: 6% 9%;
+    position: absolute;
+    top: 100px;
+
+}
+
+.content .innovation{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 95px;
+    margin-bottom: 0.5%;
+}
+.fuel{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 90px;
+    color: #6b91fc;
+    margin-top: 0%;
+    margin-bottom: 7%;     
+}
+
+p{
+    color: rgb(67, 67, 67);
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 5%;   
+}
+
+.applynow{
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+    height: 5%;
+}
+
+.applynow a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(22, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    padding: 0;
+    margin: 20px auto;
+    
+}
+
+.box div {
+    width: 68.2px;
+    height:80px;
+    background-color: #d2dfff;
+    border: 0.1px solid rgb(181, 180, 180);
+    margin: 0;
+    padding: 0;
+}
+
+.box > * {
+    margin: 0;
+    padding: 0;
+}
+
+.box div:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+.box div:nth-child(22) {
+    border-top-right-radius: 10px;
+}
+
+
+/* .box div:hover(){
+
+} */
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }

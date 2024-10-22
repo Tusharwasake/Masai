@@ -236,7 +236,15 @@ nav{
 
 .section6{
     text-align: center;
+    margin: 20px auto;
+}
+
+.sectionextra{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     margin: 100px auto;
+    
 }
 
 .section6 button{

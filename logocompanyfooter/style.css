@@ -1,0 +1,130 @@
+
+nav{
+    width: 600px;
+}
+.section div{
+    height: 350px;
+    width: 600px;
+
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+}
+
+
+.cards1{
+    background-color: rgb(1, 1, 111);
+}
+
+.cards1 img{
+    width: 300px;
+
+}
+
+.cards2{
+    display: flex;
+    background-color: rgb(62, 62, 255);
+    
+}
+
+.cards2 ul{
+    list-style: none;
+    padding: 0%;
+    
+}
+
+
+.cards3{
+    display: flex;
+    background-color: grey;
+}
+
+
+.cards4{
+    background-color: grey;
+
+}
+
+.cards4 ul{
+    display: flex;
+    padding: 0%;
+    list-style: none;
+}
+
+
+
+
+@media (min-width:400px) and (max-width:786px) {
+    /* gri */
+}
+
+
+
+/* .google{
+    width: 200px;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.section1 > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 1, 111);
+
+}
+
+
+.section1 > div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(62, 62, 255);
+    
+}
+
+
+.section1 div ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.section2 div ul{
+    list-style: none;
+    padding: 0%;
+}
+
+
+.section2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.section2 > div:nth-child(1){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    background-color: grey;
+}
+
+.section2 > div:nth-child(2){
+    background-color: grey; 
+}
+
+.section2 > div:nth-child(2) ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    
+}
+
+ */

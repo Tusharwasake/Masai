@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        button{
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 20px;
+        }
+        .box{
+            padding: 20px;
+            border: 1px solid black;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            display: none;
+        }
+
+
+
+        .hidden{
+            display: none;
+        }
+
+        .box:active{
+            display: block;
+            }
+
+    </style>
+</head>
+<body>
+    <button id="buttonid" class="button1">this info is intially hidden </button>
+    <div id="boxinfo" class="box">
+        This is box hidden
+    </div>
+</body>
+
+<script>
+    const buttoninfo = document.getElementById("buttonid");
+    const boxinfo = document.getElementById("boxinfo");
+
+    buttoninfo.addEventListener("click",()=>{
+        buttoninfo.classList.add("hidden")
+        boxinfo.style.display = 'block';
+    })
+
+
+</script>
+</html>
